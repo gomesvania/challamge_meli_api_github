@@ -1,0 +1,11 @@
+$button--primary--color: #bc0ef5;
+$button--secondary--color: #f50e0e;
+$button--tertiary--color: #0ef5a3;
+
+.button {
+  margin-left: 10px;
+
+  .button-primary {
+    background-color: $button--primary--color;
+  }
+}
