@@ -1,0 +1,27 @@
+$button--primary--color: #d896ed;
+$button--secondary--color: #f50e0e;
+$button--tertiary--color: #0ef5a3;
+
+.button {
+  margin-left: 10px;
+  border: 1px solid #8f8c8c;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 5px;
+
+  &.primary {
+    background-color: $button--primary--color;
+  }
+
+  &.secondary {
+    background-color: $button--secondary--color;
+  }
+
+  &.tertiary {
+    background-color: $button--tertiary--color;
+  }
+
+  &.button:hover {
+    background-color: #9865a9;
+  }
+}
