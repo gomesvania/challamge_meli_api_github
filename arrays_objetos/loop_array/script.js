@@ -1,17 +1,5 @@
-//Mutação de objetos => Modificar o valor de uma propriedade de um objeto criando uma nova referência para o objeto antigo.
+let nome = ['Mateus', 'Nathaly', 'André'];
 
-let pessoa = {
-  nome: 'Mateus',
+for (let i = 0; i <= nome.length; i++) {
+  console.log(nome[i]);
 }
-
-let pessoa2 = pessoa;
-
-console.log(pessoa == pessoa2);
-
-pessoa2.nome = 'Nathaly';
-
-console.log(pessoa.nome);
-
-pessoa.nome = 'André';
-
-console.log(pessoa2.nome);
